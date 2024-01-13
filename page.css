@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    color: white;
+    margin: 20px;
+    margin-left: 10%;
+    font-size: 2rem;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container .logo {
+    margin-right: 100px;
+    color:aliceblue
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 400px;
+
+}
+
+.col-2 img{
+    height: 400px;
+    width: 500px;
+    padding: 50px 50px;
+    margin-top: 100px;
+}
+
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 70px; 
+    margin-left: 50px;
+    margin-top: 100px;
+    color: white
+}
+
+.col-2 p {
+    margin-top: 25px;
+    font-weight: 900;
+}
+
+.btn{
+    display: inline-block;
+    background: #F06292;
+    color:black;
+    padding: 8px 15px;
+    margin-left: 10%;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+.header{
+    background-image: url("nuts6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.media-icons a {
+    position: relative;
+    color: white;
+    font-size: 40px;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+
+.media-icons a:hover{
+    transform: scale(1.5);
+}
